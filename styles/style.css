@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 248, 255, 1);
+    
+    
+}
+
+.banner{
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 225px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+nav img{
+    width: 135px;
+    height: 82px;
+}
+
+.nav-anchors a{
+    font-family: inter;
+    text-decoration: none;
+    color: rgba(37, 36, 50, 1);
+    font-size: 1.3rem;
+    margin-right: 48px;
+}
+
+.banner-container{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    margin: 30px auto;
+    
+
+}
+
+.banner-description{
+    font-family: inter;
+    width: 570px;
+    height: 60px;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.banner-title{
+    font-family: noto serif;
+    width: 570px;
+    height: 175px;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner-image img{
+    max-width: 100%;
+    width: 100vw;
+    width: 570px;
+    height: 350px;
+    display: block;
+}
+
+.fresh-flowers{
+    color: rgba(233, 90, 8, 1);
+}
+
+
+.plants-title{
+    font-size: 3.12rem;
+    font-weight: bold;
+    font-family: noto serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.plants{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.plants-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+.plants-description{
+    font-family: inter;
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    
+}
+
+.plants-text{
+    text-align: center;
+}
+
+.plants-card{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: 25px;
+}
+.plants-card img{
+    width: 270px;
+    height: 322px;
+}
+.lily{
+    font-size: 1.37rem;
+    font-family: inter;
+    color: rgba(17, 17, 17, 1);
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.37rem;
+    font-family: inter;
+    color: rgba(17, 17, 17, 1);
+
+}
+
+.btn{
+    width: 270px;
+    height: 50px;
+    background-color: rgba(233, 90, 8, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+
+    
+}
+
+.btn-anchor {
+    /* text-decoration: none; */
+}
+
+
+  
+/* Responsive Media Query for Mobile Phone Devices */
+@media screen and (max-width: 576px){
+    .mobile-hidden{
+        visibility: hidden;
+    }
+    .banner{
+        /* width: 700px; */
+        max-width: 100%;
+        width: 100vw;
+        
+    }
+    nav{
+       margin-left: 20px;
+       justify-content: space-between;
+       
+       
+        
+    }
+     
+    nav img{
+        width: 60px;
+        height: 38px;
+        max-width: 100%;
+    }
+    .nav-anchors a{
+        font-size: 12px;
+        margin-right:0px ;
+        
+    }
+
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-image img{
+       max-width: 100%;
+       width: 100vw;
+       height: auto;
+       display: block;
+    
+    }
+
+    .banner-title{
+        font-size: 1.5rem;
+    }
+
+}
