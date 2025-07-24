@@ -75,6 +75,10 @@ nav img{
     color: rgba(233, 90, 8, 1);
 }
 
+.plants{
+    margin-bottom: 220px;
+}
+
 
 .plants-title{
     font-size: 3.12rem;
@@ -143,9 +147,52 @@ nav img{
     
 }
 
-.btn-anchor {
-    /* text-decoration: none; */
+.lover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
+.lover-title{
+    font-size: 3.12rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: noto serif;
+    max-width: 540px;
+    line-height: 57px;
+    margin-bottom: 20px;
+
+}
+
+
+.lover-image img{
+    position: relative;
+    max-width: 540px;
+    max-height: 597px;
+
+}
+.lover-image .badge{
+    position: absolute;
+    top: 2020px;
+    right: 960px;
+    width: 285px;
+    height: 285px;
+    background-color: transparent;
+    filter: drop-shadow(4px 4px 3px  lch(10.38% 0.51 19.25));
+} 
+
+.lover-text ul li{
+    max-width: 520px;
+    max-height: 108px;
+    margin-bottom: 30px;
+    font-size: 1.37rem;
+    font-family: inter;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 33px;
+}
+
 
 
   
