@@ -7,6 +7,7 @@
 }
 
 .banner{
+    margin-bottom: 120px;
     
 }
 
@@ -80,18 +81,17 @@ nav img{
     font-weight: bold;
     font-family: noto serif;
     color: rgba(0, 0, 0, 1);
+    margin-bottom: 16px;
 }
 
-.plants{
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
 .plants-card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 10px;
-    column-gap: 5px;
+    row-gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    
 }
 
 .plants-description{
@@ -104,6 +104,7 @@ nav img{
 
 .plants-text{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .plants-card{
