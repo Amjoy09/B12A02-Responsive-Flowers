@@ -176,7 +176,7 @@ nav img {
 }
 .lover-image .badge {
   position: absolute;
-  top: 138rem;
+  top: 110rem;
   right: 83rem;
   width: 17.81rem;
   height: 17.81rem;
@@ -313,12 +313,12 @@ nav img {
   height: 33.31rem;
   margin: 0 auto;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .colorful-title {
   font-family: noto serif;
-  font-size: 3.3rem;
+  font-size: 50px;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
   background-color: transparent;
@@ -354,6 +354,8 @@ input[type="submit"] {
 
 .form {
   display: flex;
+  margin-left: 190px;
+  width: 100%;
 }
 
 .footer-text {
@@ -399,15 +401,14 @@ input[type="submit"] {
 }
 
 footer {
+  
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
   max-width: 90rem;
   margin: 0 auto;
-  display: flex;
-  background-color: rgba(255, 255, 255, 1);
-  justify-content: center;
-  gap: 6.25rem;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  width: 100%;
+  padding: 30px;background-color: rgb(226, 207, 183);
+ 
 }
 
 
@@ -553,12 +554,15 @@ input[type="submit"] {
   
   
 }
+form{
+    max-width: 500px;
+}
+
+@media screen and (max-width:576px){
 
 footer{
-  max-width: 40rem;
-  flex-direction: column;
-  width: 100%;
-  padding-left: 1rem;
+flex-direction: column;
+ 
   
 }
 
@@ -576,6 +580,7 @@ footer{
   border-radius: 30px;
   padding: 8px;
   border: none;
+}
 }
 
 
